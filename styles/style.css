@@ -134,6 +134,13 @@ main {
   animation-direction: alternate;
 }
 
+.home img {
+  width: 250px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin: 1rem;
+}
+
 @keyframes bounce {
   from {
     transform: translateY(0);
