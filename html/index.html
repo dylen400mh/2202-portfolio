@@ -163,10 +163,40 @@
       </section>
       <section id="contact" class="contact">
         <h2>Contact Me</h2>
-        <span>Email: dbelang8@uwo.ca</span>
-        <span>Phone Number: 123-456-7890</span>
+        <form action="./success.html">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          />
+          <span class="error name-error"></span>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+          <span class="error email-error"></span>
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
       </section>
       <footer>
+        <div class="contact-info">
+          <span>Email: dbelang8@uwo.ca</span>
+          <span>Phone Number: 123-456-7890</span>
+        </div>
         <nav class="social-buttons">
           <a href="https://github.com/dylen400mh" target="_blank">
             <i class="devicon-github-original"></i>
