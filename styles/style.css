@@ -294,6 +294,10 @@ form textarea {
   gap: 1rem;
 }
 
+.contact-info span {
+  color: white;
+}
+
 footer {
   padding: 1rem;
 }
